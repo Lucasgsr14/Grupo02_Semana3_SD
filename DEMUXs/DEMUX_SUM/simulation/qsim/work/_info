@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\DEMUX_SUM\simulation\qsim
+vDEMUX_SUM
+Z1 !s100 K0D?kN9ikWVGY]QRTS_Ph3
+Z2 Ig>Y_U=_zDgeOk0KY25k?03
+Z3 VYFKa;SLdXcfNWlVXkDVAf0
+Z4 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\DEMUX_SUM\simulation\qsim
+Z5 w1612629624
+Z6 8DEMUX_SUM.vo
+Z7 FDEMUX_SUM.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|DEMUX_SUM.vo|
+Z10 o-work work -O0
+Z11 n@d@e@m@u@x_@s@u@m
+!i10b 1
+!s85 0
+Z12 !s108 1612629625.906000
+Z13 !s107 DEMUX_SUM.vo|
+!s101 -O0
+vDEMUX_SUM_vlg_check_tst
+!i10b 1
+Z14 !s100 EeV=ZLPo@DdQmL]O3CQP70
+Z15 IJ5dfoZ>NEXG]AXV?oYde60
+Z16 VQXj8@8dJe16T]d=m7U_2B0
+R4
+R5
+Z17 8DEMUX_SUM.vt
+Z18 FDEMUX_SUM.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1612629626.002000
+Z20 !s107 DEMUX_SUM.vt|
+Z21 !s90 -work|work|DEMUX_SUM.vt|
+!s101 -O0
+R10
+Z22 n@d@e@m@u@x_@s@u@m_vlg_check_tst
+vDEMUX_SUM_vlg_sample_tst
+!i10b 1
+Z23 !s100 5TEZKeoMP]PQk2[kSj97F2
+Z24 I@:M[]fch:R3hIHoI^_V]H0
+Z25 VCS`H8;m^CnRJJQNZg:44n1
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@d@e@m@u@x_@s@u@m_vlg_sample_tst
+vDEMUX_SUM_vlg_vec_tst
+!i10b 1
+!s100 E4Gd>ha^o`<Bmz@O]dMI[1
+IfP<kUVNkl?=_oWJGh@lCL3
+Z27 V;G9]I46Tb>^XJZ38;>n<]2
+R4
+R5
+R17
+R18
+Z28 L0 433
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@d@e@m@u@x_@s@u@m_vlg_vec_tst

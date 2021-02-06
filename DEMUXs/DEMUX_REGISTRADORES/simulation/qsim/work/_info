@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\DEMUX_REGISTRADORES\simulation\qsim
+vDEMUX_REG
+Z1 IiZR6dka;=L=SRFlSgHj`n2
+Z2 VOT=[B@^T?C[4AY71=>7Xa0
+Z3 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\DEMUX_REGISTRADORES\simulation\qsim
+Z4 w1612622210
+Z5 8DEMUX_REG.vo
+Z6 FDEMUX_REG.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|DEMUX_REG.vo|
+Z9 o-work work -O0
+Z10 n@d@e@m@u@x_@r@e@g
+!i10b 1
+Z11 !s100 8>5S]K<ZChRgVONW^dDX@0
+!s85 0
+Z12 !s108 1612622211.613000
+Z13 !s107 DEMUX_REG.vo|
+!s101 -O0
+vDEMUX_REG_vlg_check_tst
+!i10b 1
+Z14 !s100 ^`d8i:Oo6LI2b^659OiW=1
+Z15 ICJ1TkkO>fSFUD2JKDli980
+Z16 V9^g1<AkWRz@3Ql4[@A3n]0
+R3
+Z17 w1612622209
+Z18 8DEMUX_REG.vt
+Z19 FDEMUX_REG.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z20 !s108 1612622211.805000
+Z21 !s107 DEMUX_REG.vt|
+Z22 !s90 -work|work|DEMUX_REG.vt|
+!s101 -O0
+R9
+Z23 n@d@e@m@u@x_@r@e@g_vlg_check_tst
+vDEMUX_REG_vlg_sample_tst
+!i10b 1
+Z24 !s100 GWIPjTiha5U`YWS8f4_z00
+Z25 IhgMXJO6^kXT^M5YDK2hXS1
+Z26 VgSJA0`nY;n]:[9XJ[4iEH3
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@d@e@m@u@x_@r@e@g_vlg_sample_tst
+vDEMUX_REG_vlg_vec_tst
+!i10b 1
+Z28 !s100 XJBc8[Z0ORd<[Id9nEm0c1
+Z29 IYHPT^QUF57[^2Y[b`WVF:2
+Z30 VR=UNKk]kBmN:n:z=MU8hN0
+R3
+R17
+R18
+R19
+Z31 L0 1197
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@d@e@m@u@x_@r@e@g_vlg_vec_tst

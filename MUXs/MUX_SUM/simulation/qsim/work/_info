@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\MUX_SUM\simulation\qsim
+vMUX_SUM
+Z1 IhgFZm=gS6QjV@o9f5@Mom1
+Z2 Vm19nbO86hK_;dcmJ^a^UI3
+Z3 dC:\Users\lucas\Documents\DISCIPLINAS 2020.2\3T56 3N12 - SISTEMAS DIGITAIS\Grupo02_Semana3_SD\DEMUXs\MUX_SUM\simulation\qsim
+Z4 w1612631063
+Z5 8MUX_SUM.vo
+Z6 FMUX_SUM.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@m@u@x_@s@u@m
+!i10b 1
+Z10 !s100 ^JkPQi^=L@1XSd=oYXZ822
+!s85 0
+Z11 !s108 1612631064.366000
+Z12 !s107 MUX_SUM.vo|
+Z13 !s90 -work|work|MUX_SUM.vo|
+!s101 -O0
+vMUX_SUM_vlg_check_tst
+!i10b 1
+!s100 Ho`EcHEOmGK6gA[_oI4`z1
+Ia6IARcJRF6_iZ87_H=>^E1
+VWeKYiid7Mh4WT7zSO6ABT1
+R3
+Z14 w1612631062
+Z15 8MUX_SUM.vt
+Z16 FMUX_SUM.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1612631064.580000
+Z18 !s107 MUX_SUM.vt|
+Z19 !s90 -work|work|MUX_SUM.vt|
+!s101 -O0
+R8
+n@m@u@x_@s@u@m_vlg_check_tst
+vMUX_SUM_vlg_sample_tst
+!i10b 1
+!s100 g:KX15@6>5X;:VRoH?LA21
+If^mY3O_F57P9I[62a8X6]3
+VRA;8b8SGIMeo5>G]6=mFP0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@m@u@x_@s@u@m_vlg_sample_tst
+vMUX_SUM_vlg_vec_tst
+!i10b 1
+!s100 CbM22cBPoZWFn<SODaEV72
+IP[;64DJUWblYo4WizDhb>0
+Vb;d:bG4Vi[E=7N4zm=j@L1
+R3
+R14
+R15
+R16
+L0 283
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@m@u@x_@s@u@m_vlg_vec_tst

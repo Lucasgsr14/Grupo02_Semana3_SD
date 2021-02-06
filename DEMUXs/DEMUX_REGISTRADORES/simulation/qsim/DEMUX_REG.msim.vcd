@@ -1,0 +1,878 @@
+$comment
+	File created using the following command:
+		vcd file DEMUX_REG.msim.vcd -direction
+$end
+$date
+	Sat Feb 06 11:36:52 2021
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module DEMUX_REG_vlg_vec_tst $end
+$var reg 1 ! enable $end
+$var reg 8 " IN_REG [7:0] $end
+$var reg 1 # s0 $end
+$var reg 1 $ s1 $end
+$var reg 1 % s2 $end
+$var wire 1 & REG_ADD [7] $end
+$var wire 1 ' REG_ADD [6] $end
+$var wire 1 ( REG_ADD [5] $end
+$var wire 1 ) REG_ADD [4] $end
+$var wire 1 * REG_ADD [3] $end
+$var wire 1 + REG_ADD [2] $end
+$var wire 1 , REG_ADD [1] $end
+$var wire 1 - REG_ADD [0] $end
+$var wire 1 . REG_AND [7] $end
+$var wire 1 / REG_AND [6] $end
+$var wire 1 0 REG_AND [5] $end
+$var wire 1 1 REG_AND [4] $end
+$var wire 1 2 REG_AND [3] $end
+$var wire 1 3 REG_AND [2] $end
+$var wire 1 4 REG_AND [1] $end
+$var wire 1 5 REG_AND [0] $end
+$var wire 1 6 REG_CMP [7] $end
+$var wire 1 7 REG_CMP [6] $end
+$var wire 1 8 REG_CMP [5] $end
+$var wire 1 9 REG_CMP [4] $end
+$var wire 1 : REG_CMP [3] $end
+$var wire 1 ; REG_CMP [2] $end
+$var wire 1 < REG_CMP [1] $end
+$var wire 1 = REG_CMP [0] $end
+$var wire 1 > REG_NOT [7] $end
+$var wire 1 ? REG_NOT [6] $end
+$var wire 1 @ REG_NOT [5] $end
+$var wire 1 A REG_NOT [4] $end
+$var wire 1 B REG_NOT [3] $end
+$var wire 1 C REG_NOT [2] $end
+$var wire 1 D REG_NOT [1] $end
+$var wire 1 E REG_NOT [0] $end
+$var wire 1 F REG_OR [7] $end
+$var wire 1 G REG_OR [6] $end
+$var wire 1 H REG_OR [5] $end
+$var wire 1 I REG_OR [4] $end
+$var wire 1 J REG_OR [3] $end
+$var wire 1 K REG_OR [2] $end
+$var wire 1 L REG_OR [1] $end
+$var wire 1 M REG_OR [0] $end
+$var wire 1 N REG_SUB [7] $end
+$var wire 1 O REG_SUB [6] $end
+$var wire 1 P REG_SUB [5] $end
+$var wire 1 Q REG_SUB [4] $end
+$var wire 1 R REG_SUB [3] $end
+$var wire 1 S REG_SUB [2] $end
+$var wire 1 T REG_SUB [1] $end
+$var wire 1 U REG_SUB [0] $end
+$var wire 1 V REG_XOR [7] $end
+$var wire 1 W REG_XOR [6] $end
+$var wire 1 X REG_XOR [5] $end
+$var wire 1 Y REG_XOR [4] $end
+$var wire 1 Z REG_XOR [3] $end
+$var wire 1 [ REG_XOR [2] $end
+$var wire 1 \ REG_XOR [1] $end
+$var wire 1 ] REG_XOR [0] $end
+$var wire 1 ^ sampler $end
+$scope module i1 $end
+$var wire 1 _ gnd $end
+$var wire 1 ` vcc $end
+$var wire 1 a unknown $end
+$var tri1 1 b devclrn $end
+$var tri1 1 c devpor $end
+$var tri1 1 d devoe $end
+$var wire 1 e ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 f IN_REG[0]~input_o $end
+$var wire 1 g enable~input_o $end
+$var wire 1 h s0~input_o $end
+$var wire 1 i s1~input_o $end
+$var wire 1 j s2~input_o $end
+$var wire 1 k REG_ADD~0_combout $end
+$var wire 1 l IN_REG[1]~input_o $end
+$var wire 1 m REG_ADD~1_combout $end
+$var wire 1 n IN_REG[2]~input_o $end
+$var wire 1 o REG_ADD~2_combout $end
+$var wire 1 p IN_REG[3]~input_o $end
+$var wire 1 q REG_ADD~3_combout $end
+$var wire 1 r IN_REG[4]~input_o $end
+$var wire 1 s REG_ADD~4_combout $end
+$var wire 1 t IN_REG[5]~input_o $end
+$var wire 1 u REG_ADD~5_combout $end
+$var wire 1 v IN_REG[6]~input_o $end
+$var wire 1 w REG_ADD~6_combout $end
+$var wire 1 x IN_REG[7]~input_o $end
+$var wire 1 y REG_ADD~7_combout $end
+$var wire 1 z REG_SUB~0_combout $end
+$var wire 1 { REG_SUB~1_combout $end
+$var wire 1 | REG_SUB~2_combout $end
+$var wire 1 } REG_SUB~3_combout $end
+$var wire 1 ~ REG_SUB~4_combout $end
+$var wire 1 !! REG_SUB~5_combout $end
+$var wire 1 "! REG_SUB~6_combout $end
+$var wire 1 #! REG_SUB~7_combout $end
+$var wire 1 $! REG_AND~0_combout $end
+$var wire 1 %! REG_AND~1_combout $end
+$var wire 1 &! REG_AND~2_combout $end
+$var wire 1 '! REG_AND~3_combout $end
+$var wire 1 (! REG_AND~4_combout $end
+$var wire 1 )! REG_AND~5_combout $end
+$var wire 1 *! REG_AND~6_combout $end
+$var wire 1 +! REG_AND~7_combout $end
+$var wire 1 ,! REG_OR~0_combout $end
+$var wire 1 -! REG_OR~1_combout $end
+$var wire 1 .! REG_OR~2_combout $end
+$var wire 1 /! REG_OR~3_combout $end
+$var wire 1 0! REG_OR~4_combout $end
+$var wire 1 1! REG_OR~5_combout $end
+$var wire 1 2! REG_OR~6_combout $end
+$var wire 1 3! REG_OR~7_combout $end
+$var wire 1 4! REG_NOT~0_combout $end
+$var wire 1 5! REG_NOT~1_combout $end
+$var wire 1 6! REG_NOT~2_combout $end
+$var wire 1 7! REG_NOT~3_combout $end
+$var wire 1 8! REG_NOT~4_combout $end
+$var wire 1 9! REG_NOT~5_combout $end
+$var wire 1 :! REG_NOT~6_combout $end
+$var wire 1 ;! REG_NOT~7_combout $end
+$var wire 1 <! REG_XOR~0_combout $end
+$var wire 1 =! REG_XOR~1_combout $end
+$var wire 1 >! REG_XOR~2_combout $end
+$var wire 1 ?! REG_XOR~3_combout $end
+$var wire 1 @! REG_XOR~4_combout $end
+$var wire 1 A! REG_XOR~5_combout $end
+$var wire 1 B! REG_XOR~6_combout $end
+$var wire 1 C! REG_XOR~7_combout $end
+$var wire 1 D! REG_CMP~0_combout $end
+$var wire 1 E! REG_CMP~1_combout $end
+$var wire 1 F! REG_CMP~2_combout $end
+$var wire 1 G! REG_CMP~3_combout $end
+$var wire 1 H! REG_CMP~4_combout $end
+$var wire 1 I! REG_CMP~5_combout $end
+$var wire 1 J! REG_CMP~6_combout $end
+$var wire 1 K! REG_CMP~7_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b1010 "
+0#
+0$
+0%
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+05
+04
+03
+02
+01
+00
+0/
+0.
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+x^
+0_
+1`
+xa
+1b
+1c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+1l
+0m
+0n
+0o
+1p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+0H!
+0I!
+0J!
+0K!
+$end
+#80000
+1!
+1g
+0^
+1m
+1q
+1,
+1*
+#85000
+1#
+1h
+1^
+0m
+0q
+1{
+1}
+0,
+0*
+1T
+1R
+#90000
+1$
+0#
+1i
+0h
+0^
+0{
+0}
+1%!
+1'!
+0T
+0R
+14
+12
+#95000
+1#
+1h
+1^
+0%!
+0'!
+1-!
+1/!
+04
+02
+1L
+1J
+#100000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+0-!
+0/!
+15!
+17!
+0L
+0J
+1D
+1B
+#105000
+1#
+1h
+1^
+05!
+07!
+1=!
+1?!
+0D
+0B
+1\
+1Z
+#110000
+1$
+0#
+1i
+0h
+0^
+0=!
+0?!
+1E!
+1G!
+0\
+0Z
+1<
+1:
+#115000
+1#
+1h
+1^
+0E!
+0G!
+0<
+0:
+#120000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+1m
+1q
+1,
+1*
+#125000
+1#
+1h
+1^
+0m
+0q
+1{
+1}
+0,
+0*
+1T
+1R
+#130000
+1$
+0#
+1i
+0h
+0^
+0{
+0}
+1%!
+1'!
+0T
+0R
+14
+12
+#135000
+1#
+1h
+1^
+0%!
+0'!
+1-!
+1/!
+04
+02
+1L
+1J
+#140000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+0-!
+0/!
+15!
+17!
+0L
+0J
+1D
+1B
+#145000
+1#
+1h
+1^
+05!
+07!
+1=!
+1?!
+0D
+0B
+1\
+1Z
+#150000
+1$
+0#
+1i
+0h
+0^
+0=!
+0?!
+1E!
+1G!
+0\
+0Z
+1<
+1:
+#155000
+1#
+1h
+1^
+0E!
+0G!
+0<
+0:
+#160000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+1m
+1q
+1,
+1*
+#165000
+1#
+1h
+1^
+0m
+0q
+1{
+1}
+0,
+0*
+1T
+1R
+#170000
+1$
+0#
+1i
+0h
+0^
+0{
+0}
+1%!
+1'!
+0T
+0R
+14
+12
+#175000
+1#
+1h
+1^
+0%!
+0'!
+1-!
+1/!
+04
+02
+1L
+1J
+#180000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+0-!
+0/!
+15!
+17!
+0L
+0J
+1D
+1B
+#185000
+1#
+1h
+1^
+05!
+07!
+1=!
+1?!
+0D
+0B
+1\
+1Z
+#190000
+1$
+0#
+1i
+0h
+0^
+0=!
+0?!
+1E!
+1G!
+0\
+0Z
+1<
+1:
+#195000
+1#
+1h
+1^
+0E!
+0G!
+0<
+0:
+#200000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+1m
+1q
+1,
+1*
+#205000
+1#
+1h
+1^
+0m
+0q
+1{
+1}
+0,
+0*
+1T
+1R
+#210000
+1$
+0#
+1i
+0h
+0^
+0{
+0}
+1%!
+1'!
+0T
+0R
+14
+12
+#215000
+1#
+1h
+1^
+0%!
+0'!
+1-!
+1/!
+04
+02
+1L
+1J
+#220000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+0-!
+0/!
+15!
+17!
+0L
+0J
+1D
+1B
+#225000
+1#
+1h
+1^
+05!
+07!
+1=!
+1?!
+0D
+0B
+1\
+1Z
+#230000
+1$
+0#
+1i
+0h
+0^
+0=!
+0?!
+1E!
+1G!
+0\
+0Z
+1<
+1:
+#235000
+1#
+1h
+1^
+0E!
+0G!
+0<
+0:
+#240000
+0!
+0%
+0$
+0#
+0g
+0j
+0i
+0h
+0^
+#245000
+1#
+1h
+1^
+#250000
+1$
+0#
+1i
+0h
+0^
+#255000
+1#
+1h
+1^
+#260000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+#265000
+1#
+1h
+1^
+#270000
+1$
+0#
+1i
+0h
+0^
+#275000
+1#
+1h
+1^
+#280000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+#285000
+1#
+1h
+1^
+#290000
+1$
+0#
+1i
+0h
+0^
+#295000
+1#
+1h
+1^
+#300000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+#305000
+1#
+1h
+1^
+#310000
+1$
+0#
+1i
+0h
+0^
+#315000
+1#
+1h
+1^
+#320000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+#325000
+1#
+1h
+1^
+#330000
+1$
+0#
+1i
+0h
+0^
+#335000
+1#
+1h
+1^
+#340000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+#345000
+1#
+1h
+1^
+#350000
+1$
+0#
+1i
+0h
+0^
+#355000
+1#
+1h
+1^
+#360000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+#365000
+1#
+1h
+1^
+#370000
+1$
+0#
+1i
+0h
+0^
+#375000
+1#
+1h
+1^
+#380000
+1%
+0$
+0#
+1j
+0i
+0h
+0^
+#385000
+1#
+1h
+1^
+#390000
+1$
+0#
+1i
+0h
+0^
+#395000
+1#
+1h
+1^
+#400000
+0%
+0$
+0#
+0j
+0i
+0h
+0^
+#1000000

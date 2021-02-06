@@ -1,0 +1,105 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+
+entity DEMUX_REG is
+	port(
+		-- Entradas
+		
+		IN_REG     : in std_logic_vector(7 downto 0);
+		s0, s1, s2 : in std_logic;
+		enable     : in std_logic;
+		
+		-- Saídas
+		
+		REG_ADD : out std_logic_vector(7 downto 0);
+		REG_SUB : out std_logic_vector(7 downto 0);
+		REG_AND : out std_logic_vector(7 downto 0);
+		REG_OR  : out std_logic_vector(7 downto 0);
+		REG_XOR : out std_logic_vector(7 downto 0);
+		REG_CMP : out std_logic_vector(7 downto 0)
+	);
+end DEMUX_REG;
+
+architecture ckt of DEMUX_REG is
+
+begin
+	-- saida '000' (SOMA)
+	
+	REG_ADD[7] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and (not(s0) and not(s1) and not(s2)) and IN_REG[0];
+	
+	-- saida '001' (SUBTRAÇÃO)
+	
+	REG_ADD[7] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and (not(s0) and not(s1) and (s2)) and IN_REG[0];
+	
+	-- saida '010' (AND)
+	
+	REG_ADD[7] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and (not(s0) and (s1) and not(s2)) and IN_REG[0];
+	
+	-- saida '011' (OR)
+	
+	REG_ADD[7] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and (not(s0) and (s1) and (s2)) and IN_REG[0];
+	
+	
+	-- saida '100' (NOT)
+	
+	REG_ADD[7] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and ((s0) and not(s1) and not(s2)) and IN_REG[0];
+	
+	-- saida '101' (XOR)
+	
+	REG_ADD[7] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and ((s0) and not(s1) and (s2)) and IN_REG[0];
+	
+	-- saida '110' (CMP)
+	
+	REG_ADD[7] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[7];
+	REG_ADD[6] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[6];
+	REG_ADD[5] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[5];
+	REG_ADD[4] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[4];
+	REG_ADD[3] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[3];
+	REG_ADD[2] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[2];
+	REG_ADD[1] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[1];
+	REG_ADD[0] <= enable and ((s0) and (s1) and not(s2)) and IN_REG[0];
+
+end ckt;
+	
